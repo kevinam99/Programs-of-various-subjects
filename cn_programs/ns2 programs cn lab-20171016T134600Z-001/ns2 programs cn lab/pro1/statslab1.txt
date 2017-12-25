@@ -1,0 +1,72 @@
+TCP packets sent : 0
+TCP packets recieved : 0
+TCP packets dropped: 0
+UDP packets sent : 481
+UDP packets recieved : 357
+UDP packets dropped: 108
+Total Sent: 481
+Total Dropped: 108
+TCP packets sent : 0
+TCP packets recieved : 0
+TCP packets dropped: 0
+UDP packets sent : 481
+UDP packets recieved : 357
+UDP packets dropped: 108
+Total Sent: 481
+Total Dropped: 108
+TCP packets sent : 0
+TCP packets recieved : 0
+TCP packets dropped: 0
+UDP packets sent : 590
+UDP packets recieved : 573
+UDP packets dropped: 0
+Total Sent: 590
+Total Dropped: 0
+TCP packets sent : 0
+TCP packets recieved : 0
+TCP packets dropped: 0
+UDP packets sent : 590
+UDP packets recieved : 573
+UDP packets dropped: 0
+Total Sent: 590
+Total Dropped: 0
+TCP packets sent : 0
+TCP packets recieved : 0
+TCP packets dropped: 0
+UDP packets sent : 597
+UDP packets recieved : 587
+UDP packets dropped: 0
+Total Sent: 597
+Total Dropped: 0
+TCP packets sent : 0
+TCP packets recieved : 0
+TCP packets dropped: 0
+UDP packets sent : 409
+UDP packets recieved : 213
+UDP packets dropped: 182
+Total Sent: 409
+Total Dropped: 182
+TCP packets sent : 0
+TCP packets recieved : 0
+TCP packets dropped: 0
+UDP packets sent : 337
+UDP packets recieved : 70
+UDP packets dropped: 255
+Total Sent: 337
+Total Dropped: 255
+TCP packets sent : 0
+TCP packets recieved : 0
+TCP packets dropped: 0
+UDP packets sent : 373
+UDP packets recieved : 142
+UDP packets dropped: 218
+Total Sent: 373
+Total Dropped: 218
+TCP packets sent : 0
+TCP packets recieved : 0
+TCP packets dropped: 0
+UDP packets sent : 445
+UDP packets recieved : 285
+UDP packets dropped: 145
+Total Sent: 445
+Total Dropped: 145

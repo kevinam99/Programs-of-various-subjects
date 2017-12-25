@@ -1,0 +1,15 @@
+
+The Throughput of FTP application is 1808906 
+The Throughput of TELNET application is 18026 
+The Throughput of FTP application is 3968640 
+The Throughput of TELNET application is 18026 
+The Throughput of FTP application is 931840 
+The Throughput of TELNET application is 18026 
+The Throughput of FTP application is 191360 
+The Throughput of TELNET application is 18373 
+The Throughput of FTP application is 383066 
+The Throughput of TELNET application is 18026 
+The Throughput of FTP application is 571306 
+The Throughput of TELNET application is 18026 
+The Throughput of FTP application is 759893 
+The Throughput of TELNET application is 18026 
