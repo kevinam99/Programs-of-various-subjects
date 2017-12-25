@@ -9,7 +9,7 @@ struct node *link;
 
 struct node *last=NULL;
 struct node *nn;
-//struct node*temp;
+struct node*temp;
 
 int ch,item;
 
@@ -50,8 +50,6 @@ nn->link=last->link;
 last->link=nn;
 }
 }
-
-
 void displayList()
 {
     struct node *temp;
@@ -65,27 +63,18 @@ void displayList()
     {
        temp = last->link;
         printf("DATA IN THE LIST:\n");
-	
-	 
-        while(temp != last)
-	{
+ 
+        do {
             printf("%d\n",  temp->info);
  
             temp = temp->link;
            // n++;
-        }
-
-	if(temp==last)
-	{
-		printf("%d\n", temp->info);
-	}
+        }while(temp != last);
+printf("%d\n", temp->info);
     }
 }
-
-
 void del_beg()
 {
-struct node *temp;
 if(last==NULL)
 {
 printf("UNDERFLOW");
@@ -107,7 +96,6 @@ free(temp);
 
 void del_end()
 {
-struct node *temp;
 if(last==NULL)
 {
 printf("underflow");
@@ -136,30 +124,23 @@ last=temp;
 
 void insert_given(int item,int pos)
 {
-struct node *temp;
     int c=1;
     temp=last->link;
     nn=(struct node*)malloc(sizeof(struct node));
     nn->info=item;
-    if(pos==1)
-    {
-	nn->link=temp;
-	last->link=nn;
-	return;
-    }
-    while(temp!=last && c!=pos-1)
+    while(temp!=last && c!=pos)
     {    
         temp=temp->link;
         c++;
     }
-    if(c==pos-1 && temp==last)
+    if(c==pos && temp==last)
     {
         nn->link=temp->link;
         temp->link=nn;
         last=nn;
         return;
     }    
-    else if( temp==last && c!=pos-1)
+    else if( temp==last && c!=pos)
     {
         printf("INVALID");
         return;
@@ -174,37 +155,16 @@ struct node *temp;
 void del_pos(int pos)
 {
     int c=1;struct node*k;
-struct node*temp;
     temp=last->link;
-	
-if(last==NULL)
-{
-printf("underflow");
-return;
-}
-
-    if(pos==1)
-    {
-	k=temp;
-	last->link=temp->link;
-	printf("element deleted is = %d \n",k->info);
-	free(k);
-	return;
-    }
     while(temp!=last && c!=pos-1)
     {    
         temp=temp->link;
         c++;
     }
-    if(temp==last)
-    {
-	printf("INVALID POSITION\n");
-	return;
-    }
     k=temp->link;
-    printf("element deleted is = %d \n",k->info);
     temp->link=k->link;
     free(k);
+    printf("element deleted\n");
 }
 
 
